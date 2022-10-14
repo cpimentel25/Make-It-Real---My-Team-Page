@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.contFather {
+    height: 100%;
+    text-align: left;
+    margin: 5%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 0 10% 0;
+}
+
+.header h1 {
+    font-family: 'PT Serif', serif;
+    margin: 5% 0 5% 0;
+    width: 100%;
+}
+
+.header h1::first-letter {
+    text-transform: capitalize;
+}
+
+.description {
+    margin: 5% 0 5% 0;
+}
+
+.header h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+.header p {
+    font-size:  14px;
+}
+
+.header p::first-letter {
+    text-transform: capitalize;
+}
+
+#team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#team img {
+    width: 150px;
+    /* margin-right: 10%; */
+}
+
+#team div {
+    display: block;
+    position: relative;
+    margin-right: 8%;
+}
+
+ #team .teamOne, .teamThree, .teamFive {
+    margin-bottom: 80px;
+}
+
+/* #team .teamTwo, .teamFour, .teamSix {
+    margin-top: 80px;
+} */
+
+#team p {
+    position: absolute;
+    top: 0;
+    left: 113%;
+    width: 100%;
+    background: transparent;
+    transform-origin: 0 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    transform: rotate(90deg);
+    margin: 0 0 10px 0;
+}
+
+#team h3 {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+@media (min-width: 1440px) {
+
+    .contFather {
+        width: 700px;
+        position: relative;
+        left: 25%;
+    }
+
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 10% 0 10% 0;
+    }
+
+}
