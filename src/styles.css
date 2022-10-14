@@ -56,7 +56,6 @@
 
 #team img {
     width: 150px;
-    /* margin-right: 10%; */
 }
 
 #team div {
@@ -68,10 +67,6 @@
  #team .teamOne, .teamThree, .teamFive {
     margin-bottom: 80px;
 }
-
-/* #team .teamTwo, .teamFour, .teamSix {
-    margin-top: 80px;
-} */
 
 #team p {
     position: absolute;
